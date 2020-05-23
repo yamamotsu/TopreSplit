@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name TopreLib)(type Legacy)(uri F:/Owncloud/Works/ECKeyboard/custom-topre-guide-master/kicad/lib/TopreLib.lib)(options "")(descr ""))
+  (lib (name eckeyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/eckeyboard-rescue.lib)(options "")(descr ""))
 )
