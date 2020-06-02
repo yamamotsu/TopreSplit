@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TopreLib:ToprePad TP2
+L eckeyboard-rescue:ToprePad-TopreLib TP2
 U 1 1 5E69A1C3
 P 4825 2500
 F 0 "TP2" H 4900 2250 60  0001 R CNN
@@ -29,7 +29,7 @@ F 6 "Y" H 4825 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP3
+L eckeyboard-rescue:ToprePad-TopreLib TP3
 U 1 1 5E69A1FD
 P 4825 2900
 F 0 "TP3" H 4900 2650 60  0001 R CNN
@@ -43,7 +43,7 @@ F 6 "Y" H 4825 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP6
+L eckeyboard-rescue:ToprePad-TopreLib TP6
 U 1 1 5E69A21E
 P 5225 2900
 F 0 "TP6" H 5300 2650 60  0001 R CNN
@@ -57,7 +57,7 @@ F 6 "Y" H 5225 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP1
+L eckeyboard-rescue:ToprePad-TopreLib TP1
 U 1 1 5E69A22F
 P 4825 2100
 F 0 "TP1" H 4900 1850 60  0001 R CNN
@@ -71,7 +71,7 @@ F 6 "Y" H 4825 2100 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP9
+L eckeyboard-rescue:ToprePad-TopreLib TP9
 U 1 1 5E69A240
 P 5625 2900
 F 0 "TP9" H 5700 2650 60  0001 R CNN
@@ -85,7 +85,7 @@ F 6 "Y" H 5625 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP5
+L eckeyboard-rescue:ToprePad-TopreLib TP5
 U 1 1 5E69A261
 P 5225 2500
 F 0 "TP5" H 5300 2250 60  0001 R CNN
@@ -99,7 +99,7 @@ F 6 "Y" H 5225 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP4
+L eckeyboard-rescue:ToprePad-TopreLib TP4
 U 1 1 5E69A29A
 P 5225 2100
 F 0 "TP4" H 5300 1850 60  0001 R CNN
@@ -113,7 +113,7 @@ F 6 "Y" H 5225 2100 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP8
+L eckeyboard-rescue:ToprePad-TopreLib TP8
 U 1 1 5E69A2B3
 P 5625 2500
 F 0 "TP8" H 5700 2250 60  0001 R CNN
@@ -127,7 +127,7 @@ F 6 "Y" H 5625 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP7
+L eckeyboard-rescue:ToprePad-TopreLib TP7
 U 1 1 5E69A2C4
 P 5625 2100
 F 0 "TP7" H 5700 1850 60  0001 R CNN
@@ -271,7 +271,7 @@ F 3 "" H 4525 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP10
+L eckeyboard-rescue:ToprePad-TopreLib TP10
 U 1 1 5E6A1DD9
 P 4825 3300
 F 0 "TP10" H 4900 3050 60  0001 R CNN
@@ -285,7 +285,7 @@ F 6 "Y" H 4825 3300 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP12
+L eckeyboard-rescue:ToprePad-TopreLib TP12
 U 1 1 5E6A1DE2
 P 5225 3300
 F 0 "TP12" H 5300 3050 60  0001 R CNN
@@ -299,7 +299,7 @@ F 6 "Y" H 5225 3300 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP14
+L eckeyboard-rescue:ToprePad-TopreLib TP14
 U 1 1 5E6A1DEB
 P 5625 3300
 F 0 "TP14" H 5700 3050 60  0001 R CNN
@@ -351,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3400 5750 3000
 $Comp
-L TopreLib:ToprePad TP11
+L eckeyboard-rescue:ToprePad-TopreLib TP11
 U 1 1 5E6A3A9B
 P 4825 3700
 F 0 "TP11" H 4900 3450 60  0001 R CNN
@@ -365,7 +365,7 @@ F 6 "Y" H 4825 3700 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP13
+L eckeyboard-rescue:ToprePad-TopreLib TP13
 U 1 1 5E6A3AA4
 P 5225 3700
 F 0 "TP13" H 5300 3450 60  0001 R CNN
@@ -503,7 +503,7 @@ Wire Wire Line
 Connection ~ 5050 3600
 Connection ~ 5450 3600
 $Comp
-L TopreLib:ToprePad TP17
+L eckeyboard-rescue:ToprePad-TopreLib TP17
 U 1 1 5E74D75A
 P 6025 2900
 F 0 "TP17" H 6100 2650 60  0001 R CNN
@@ -517,7 +517,7 @@ F 6 "Y" H 6025 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP16
+L eckeyboard-rescue:ToprePad-TopreLib TP16
 U 1 1 5E74D763
 P 6025 2500
 F 0 "TP16" H 6100 2250 60  0001 R CNN
@@ -531,7 +531,7 @@ F 6 "Y" H 6025 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP15
+L eckeyboard-rescue:ToprePad-TopreLib TP15
 U 1 1 5E74D76C
 P 6025 2100
 F 0 "TP15" H 6100 1850 60  0001 R CNN
@@ -578,7 +578,7 @@ Wire Wire Line
 	6150 2200 6125 2200
 Connection ~ 6150 2600
 $Comp
-L TopreLib:ToprePad TP18
+L eckeyboard-rescue:ToprePad-TopreLib TP18
 U 1 1 5E74D78A
 P 6025 3300
 F 0 "TP18" H 6100 3050 60  0001 R CNN
@@ -604,7 +604,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3400 6150 3000
 $Comp
-L TopreLib:ToprePad TP19
+L eckeyboard-rescue:ToprePad-TopreLib TP19
 U 1 1 5E74D79A
 P 6025 3700
 F 0 "TP19" H 6100 3450 60  0001 R CNN
@@ -678,7 +678,7 @@ Wire Wire Line
 	6400 4625 6400 4525
 Connection ~ 6250 3600
 $Comp
-L TopreLib:ToprePad TP22
+L eckeyboard-rescue:ToprePad-TopreLib TP22
 U 1 1 5E754EF5
 P 6425 2900
 F 0 "TP22" H 6500 2650 60  0001 R CNN
@@ -692,7 +692,7 @@ F 6 "Y" H 6425 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP21
+L eckeyboard-rescue:ToprePad-TopreLib TP21
 U 1 1 5E754EFE
 P 6425 2500
 F 0 "TP21" H 6500 2250 60  0001 R CNN
@@ -706,7 +706,7 @@ F 6 "Y" H 6425 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP20
+L eckeyboard-rescue:ToprePad-TopreLib TP20
 U 1 1 5E754F07
 P 6425 2100
 F 0 "TP20" H 6500 1850 60  0001 R CNN
@@ -753,7 +753,7 @@ Wire Wire Line
 	6550 2200 6525 2200
 Connection ~ 6550 2600
 $Comp
-L TopreLib:ToprePad TP23
+L eckeyboard-rescue:ToprePad-TopreLib TP23
 U 1 1 5E754F25
 P 6425 3300
 F 0 "TP23" H 6500 3050 60  0001 R CNN
@@ -823,7 +823,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 4625 6800 4525
 $Comp
-L TopreLib:ToprePad TP26
+L eckeyboard-rescue:ToprePad-TopreLib TP26
 U 1 1 5E75FDBC
 P 6825 2900
 F 0 "TP26" H 6900 2650 60  0001 R CNN
@@ -837,7 +837,7 @@ F 6 "Y" H 6825 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP25
+L eckeyboard-rescue:ToprePad-TopreLib TP25
 U 1 1 5E75FDC5
 P 6825 2500
 F 0 "TP25" H 6900 2250 60  0001 R CNN
@@ -851,7 +851,7 @@ F 6 "Y" H 6825 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP24
+L eckeyboard-rescue:ToprePad-TopreLib TP24
 U 1 1 5E75FDCE
 P 6825 2100
 F 0 "TP24" H 6900 1850 60  0001 R CNN
@@ -902,7 +902,7 @@ Wire Wire Line
 	6950 2200 6925 2200
 Connection ~ 6950 2600
 $Comp
-L TopreLib:ToprePad TP27
+L eckeyboard-rescue:ToprePad-TopreLib TP27
 U 1 1 5E75FDEC
 P 6825 3300
 F 0 "TP27" H 6900 3050 60  0001 R CNN
@@ -1355,7 +1355,7 @@ F 3 "" H 2850 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L akzuki:NJM2742 U2
+L eckeyboard-rescue:NJM2742-akzuki U2
 U 1 1 5E7249CA
 P 5175 6350
 F 0 "U2" H 5375 6575 50  0000 C CNN
@@ -1935,7 +1935,7 @@ Wire Wire Line
 Connection ~ 6650 4750
 NoConn ~ 5675 6450
 $Comp
-L TopreLib:ToprePad TP28
+L eckeyboard-rescue:ToprePad-TopreLib TP28
 U 1 1 5E88EC5E
 P 6425 3700
 F 0 "TP28" H 6500 3450 60  0001 R CNN
@@ -1966,7 +1966,7 @@ Connection ~ 6650 3600
 Wire Wire Line
 	6650 3600 6650 4225
 $Comp
-L TopreLib:ToprePad TP31
+L eckeyboard-rescue:ToprePad-TopreLib TP31
 U 1 1 5E8F8111
 P 7225 2900
 F 0 "TP31" H 7300 2650 60  0001 R CNN
@@ -1980,7 +1980,7 @@ F 6 "Y" H 7225 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP30
+L eckeyboard-rescue:ToprePad-TopreLib TP30
 U 1 1 5E8F811A
 P 7225 2500
 F 0 "TP30" H 7300 2250 60  0001 R CNN
@@ -1994,7 +1994,7 @@ F 6 "Y" H 7225 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP29
+L eckeyboard-rescue:ToprePad-TopreLib TP29
 U 1 1 5E8F8123
 P 7225 2100
 F 0 "TP29" H 7300 1850 60  0001 R CNN
@@ -2045,7 +2045,7 @@ Wire Wire Line
 	7350 2200 7325 2200
 Connection ~ 7350 2600
 $Comp
-L TopreLib:ToprePad TP32
+L eckeyboard-rescue:ToprePad-TopreLib TP32
 U 1 1 5E8F813F
 P 7625 3300
 F 0 "TP32" H 7700 3050 60  0001 R CNN
@@ -2111,7 +2111,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4625 7450 4750
 $Comp
-L TopreLib:ToprePad TP35
+L eckeyboard-rescue:ToprePad-TopreLib TP35
 U 1 1 5E921A58
 P 7625 2900
 F 0 "TP35" H 7700 2650 60  0001 R CNN
@@ -2125,7 +2125,7 @@ F 6 "Y" H 7625 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP34
+L eckeyboard-rescue:ToprePad-TopreLib TP34
 U 1 1 5E921A61
 P 7625 2500
 F 0 "TP34" H 7700 2250 60  0001 R CNN
@@ -2139,7 +2139,7 @@ F 6 "Y" H 7625 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TopreLib:ToprePad TP33
+L eckeyboard-rescue:ToprePad-TopreLib TP33
 U 1 1 5E921A6A
 P 7625 2100
 F 0 "TP33" H 7700 1850 60  0001 R CNN

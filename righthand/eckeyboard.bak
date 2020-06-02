@@ -2047,32 +2047,17 @@ Connection ~ 7350 2600
 $Comp
 L TopreLib:ToprePad TP32
 U 1 1 5E8F813F
-P 7225 3300
-F 0 "TP32" H 7300 3050 60  0001 R CNN
-F 1 "ToprePad" H 7200 2975 60  0001 C CNN
-F 2 "toprepad:ToprePad" H 7225 3300 60  0001 C CNN
-F 3 "" H 7225 3300 60  0001 C CNN
-F 4 "C" H 7225 3300 50  0001 C CNN "Spice_Primitive"
-F 5 "3p" H 7225 3300 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 7225 3300 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    7225 3300
+P 7625 3300
+F 0 "TP32" H 7700 3050 60  0001 R CNN
+F 1 "ToprePad" H 7600 2975 60  0001 C CNN
+F 2 "toprepad:ToprePad" H 7625 3300 60  0001 C CNN
+F 3 "" H 7625 3300 60  0001 C CNN
+F 4 "C" H 7625 3300 50  0001 C CNN "Spice_Primitive"
+F 5 "3p" H 7625 3300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 7625 3300 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    7625 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7450 3200 7325 3200
-Wire Wire Line
-	7000 3500 7400 3500
-Wire Wire Line
-	7400 3500 7400 3300
-Wire Wire Line
-	7400 3300 7325 3300
-Wire Wire Line
-	7350 3400 7325 3400
-Wire Wire Line
-	7350 3400 7350 3000
-Wire Wire Line
-	7450 3200 7450 2800
-Connection ~ 7450 3200
 Connection ~ 7450 2800
 Wire Wire Line
 	7450 2400 7450 2000
@@ -2115,11 +2100,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 4625 7600 4525
 Connection ~ 7350 3000
-Connection ~ 7350 3400
-Wire Wire Line
-	7350 3400 7350 4000
-Wire Wire Line
-	7450 3200 7450 4225
 Connection ~ 7450 2000
 Connection ~ 7450 4625
 Text Label 7450 1700 3    50   ~ 0
@@ -2273,9 +2253,9 @@ Connection ~ 7350 4000
 Connection ~ 7050 4750
 Connection ~ 7450 4750
 Wire Wire Line
-	7750 3000 7750 4000
+	7750 3000 7750 3400
 Wire Wire Line
-	7850 2800 7850 4225
+	7850 2800 7850 3200
 Wire Notes Line
 	4800 4100 8250 4100
 Wire Notes Line
@@ -2298,4 +2278,24 @@ Wire Wire Line
 	10525 5150 10400 5150
 Text Notes 7875 2525 0    50   ~ 0
 <- "`"
+Wire Wire Line
+	7725 3200 7850 3200
+Connection ~ 7850 3200
+Wire Wire Line
+	7850 3200 7850 4225
+Wire Wire Line
+	7725 3400 7750 3400
+Connection ~ 7750 3400
+Wire Wire Line
+	7750 3400 7750 4000
+Wire Wire Line
+	7725 3300 7800 3300
+Wire Wire Line
+	7800 3300 7800 3500
+Wire Wire Line
+	7000 3500 7800 3500
+Wire Wire Line
+	7350 3000 7350 4000
+Wire Wire Line
+	7450 2800 7450 4225
 $EndSCHEMATC

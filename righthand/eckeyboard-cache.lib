@@ -191,26 +191,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TopreLib_ToprePad
+# eckeyboard-rescue_NJM2742-akzuki
 #
-DEF ~TopreLib_ToprePad TP 0 40 Y Y 1 F N
-F0 "TP" 75 -250 60 H I R CNN
-F1 "TopreLib_ToprePad" -25 -325 60 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 150 -125 -150 0 1 0 N
-X S 1 100 100 98 L 50 50 1 1 I
-X R 2 100 0 98 L 50 50 1 1 O
-X G 3 100 -100 98 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# akzuki_NJM2742
-#
-DEF akzuki_NJM2742 U 0 40 Y Y 1 F N
+DEF eckeyboard-rescue_NJM2742-akzuki U 0 40 Y Y 1 F N
 F0 "U" 200 100 50 H V C CNN
-F1 "akzuki_NJM2742" 200 150 50 H V C CNN
+F1 "eckeyboard-rescue_NJM2742-akzuki" 200 150 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -223,6 +208,21 @@ X B_IN+ 5 500 -300 100 L 50 31 1 1 I
 X B_IN- 6 500 -200 100 L 50 31 1 1 I
 X B_OUT 7 500 -100 100 L 50 31 1 1 O
 X VDD 8 500 0 100 L 50 31 1 1 W
+ENDDRAW
+ENDDEF
+#
+# eckeyboard-rescue_ToprePad-TopreLib
+#
+DEF ~eckeyboard-rescue_ToprePad-TopreLib TP 0 40 Y Y 1 F N
+F0 "TP" 75 -250 60 H I R CNN
+F1 "eckeyboard-rescue_ToprePad-TopreLib" -25 -325 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 150 -125 -150 0 1 0 N
+X S 1 100 100 98 L 50 50 1 1 I
+X R 2 100 0 98 L 50 50 1 1 O
+X G 3 100 -100 98 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
