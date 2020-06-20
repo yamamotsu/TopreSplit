@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -549,9 +550,9 @@ $EndComp
 Connection ~ 4550 5900
 Wire Wire Line
 	4550 5900 4550 5950
-Text Label 5075 3525 2    50   ~ 0
-D-
 Text Label 5075 3625 2    50   ~ 0
+D-
+Text Label 5075 3525 2    50   ~ 0
 D+
 Wire Wire Line
 	5075 3625 5225 3625
@@ -886,57 +887,21 @@ Text Label 6825 3925 2    50   ~ 0
 Rx
 Wire Wire Line
 	6825 3925 6425 3925
-Text Label 8375 4725 0    50   ~ 0
-Tx
-Wire Wire Line
-	8375 4725 8525 4725
-Text Label 8375 4625 0    50   ~ 0
+Text Label 8305 4580 0    50   ~ 0
 Rx
-Wire Wire Line
-	8375 4625 8525 4625
-Text Notes 7675 5700 0    118  ~ 0
+Text Notes 7675 5650 0    118  ~ 0
 ****NOTE****\nLeftHand: R1->Rx, R2->Tx\nRightHand: R1->Tx, R2->Rx
-$Comp
-L power:+5V #PWR033
-U 1 1 5EFD17DC
-P 8425 4500
-F 0 "#PWR033" H 8425 4350 50  0001 C CNN
-F 1 "+5V" H 8440 4673 50  0000 C CNN
-F 2 "" H 8425 4500 50  0001 C CNN
-F 3 "" H 8425 4500 50  0001 C CNN
-	1    8425 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 4500 8425 4525
-Wire Wire Line
-	8425 4525 8525 4525
-$Comp
-L power:GND #PWR034
-U 1 1 5EFD9894
-P 8425 4875
-F 0 "#PWR034" H 8425 4625 50  0001 C CNN
-F 1 "GND" H 8430 4702 50  0000 C CNN
-F 2 "" H 8425 4875 50  0001 C CNN
-F 3 "" H 8425 4875 50  0001 C CNN
-	1    8425 4875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 4875 8425 4825
 $Comp
 L Connector:AudioJack4 J3
 U 1 1 5EFE9CF0
-P 8725 4725
-F 0 "J3" H 8396 4608 50  0000 R CNN
-F 1 "TRRS_Jack" H 8396 4699 50  0000 R CNN
-F 2 "MyLib:TRRS_jack_MJ4PP9" H 8725 4725 50  0001 C CNN
-F 3 "~" H 8725 4725 50  0001 C CNN
-	1    8725 4725
+P 9520 4680
+F 0 "J3" H 9191 4563 50  0000 R CNN
+F 1 "TRRS_Jack" H 9191 4654 50  0000 R CNN
+F 2 "MyLib:TRRS_jack_MJ4PP9" H 9520 4680 50  0001 C CNN
+F 3 "~" H 9520 4680 50  0001 C CNN
+	1    9520 4680
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8425 4825 8525 4825
 Wire Notes Line
 	7225 1225 7225 6350
 Wire Notes Line
@@ -1122,4 +1087,116 @@ Supply Selector
 Text Notes 925  950  0    197  ~ 0
 Split HHKB Controller Board
 NoConn ~ 6425 4125
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5EEEE665
+P 8735 4580
+F 0 "JP3" H 8735 4290 50  0000 C CNN
+F 1 "Jumper_left_Rx" H 8735 4430 50  0000 C CNN
+F 2 "" H 8735 4580 50  0001 C CNN
+F 3 "~" H 8735 4580 50  0001 C CNN
+	1    8735 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5EF06B1A
+P 8735 4680
+F 0 "JP4" H 8730 4430 50  0000 C CNN
+F 1 "Jumper_left_Tx" H 8735 4555 50  0000 C CNN
+F 2 "" H 8735 4680 50  0001 C CNN
+F 3 "~" H 8735 4680 50  0001 C CNN
+	1    8735 4680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8835 4680 9010 4680
+Wire Wire Line
+	8835 4580 8965 4580
+Wire Wire Line
+	8635 4580 8460 4580
+Text Label 8305 4680 0    50   ~ 0
+Tx
+Wire Wire Line
+	8635 4680 8535 4680
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5F036E22
+P 8730 4395
+F 0 "JP2" H 8845 4660 50  0000 C CNN
+F 1 "Jumper_right_Rx" H 8735 4590 50  0000 C CNN
+F 2 "" H 8730 4395 50  0001 C CNN
+F 3 "~" H 8730 4395 50  0001 C CNN
+	1    8730 4395
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5F036ED4
+P 8730 4330
+F 0 "JP1" H 8690 4520 50  0000 C CNN
+F 1 "Jumper_right_Tx" H 8730 4390 50  0000 C CNN
+F 2 "" H 8730 4330 50  0001 C CNN
+F 3 "~" H 8730 4330 50  0001 C CNN
+	1    8730 4330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8460 4580 8460 4330
+Wire Wire Line
+	8460 4330 8630 4330
+Connection ~ 8460 4580
+Wire Wire Line
+	8460 4580 8305 4580
+Wire Wire Line
+	8535 4680 8535 4395
+Wire Wire Line
+	8535 4395 8630 4395
+Connection ~ 8535 4680
+Wire Wire Line
+	8535 4680 8305 4680
+Wire Wire Line
+	8830 4395 8965 4395
+Wire Wire Line
+	8965 4395 8965 4580
+Connection ~ 8965 4580
+Wire Wire Line
+	8965 4580 9320 4580
+Wire Wire Line
+	8830 4330 9010 4330
+Wire Wire Line
+	9010 4330 9010 4680
+Connection ~ 9010 4680
+Wire Wire Line
+	9010 4680 9320 4680
+$Comp
+L power:GND #PWR?
+U 1 1 5F059B65
+P 9250 4820
+F 0 "#PWR?" H 9250 4570 50  0001 C CNN
+F 1 "GND" H 9255 4647 50  0000 C CNN
+F 2 "" H 9250 4820 50  0001 C CNN
+F 3 "" H 9250 4820 50  0001 C CNN
+	1    9250 4820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4820 9250 4780
+Wire Wire Line
+	9250 4780 9320 4780
+$Comp
+L power:+5V #PWR?
+U 1 1 5F062E45
+P 9250 4435
+F 0 "#PWR?" H 9250 4285 50  0001 C CNN
+F 1 "+5V" H 9265 4608 50  0000 C CNN
+F 2 "" H 9250 4435 50  0001 C CNN
+F 3 "" H 9250 4435 50  0001 C CNN
+	1    9250 4435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4435 9250 4480
+Wire Wire Line
+	9250 4480 9320 4480
 $EndSCHEMATC
