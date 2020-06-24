@@ -1057,11 +1057,11 @@ Text Label 1500 6750 2    50   ~ 0
 ROW4
 Text Label 1500 6650 2    50   ~ 0
 ROW3
-Text Label 1500 6350 2    50   ~ 0
+Text Label 1500 6550 2    50   ~ 0
 ROW2
 Text Label 1500 6450 2    50   ~ 0
 ROW1
-Text Label 1500 6550 2    50   ~ 0
+Text Label 1500 6350 2    50   ~ 0
 ROW0
 $Comp
 L Device:R R2
@@ -1499,13 +1499,13 @@ Wire Wire Line
 	8550 4425 8850 4425
 Wire Wire Line
 	8550 4525 8850 4525
-Text Label 3925 6250 2    50   ~ 0
+Text Label 3925 6050 2    50   ~ 0
 MUX_A
 Wire Wire Line
 	3625 6050 3925 6050
 Text Label 3925 6150 2    50   ~ 0
 MUX_B
-Text Label 3925 6050 2    50   ~ 0
+Text Label 3925 6250 2    50   ~ 0
 MUX_C
 Wire Wire Line
 	3625 6150 3925 6150
