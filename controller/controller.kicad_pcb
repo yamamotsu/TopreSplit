@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 27)
+    (drawings 28)
     (tracks 463)
     (zones 0)
     (modules 36)
@@ -1591,6 +1591,18 @@
       ))
   )
 
+  (dimension 38.15 (width 0.3) (layer F.Fab)
+    (gr_text "38.150 mm" (at 77.025 40.5) (layer F.Fab)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 57.95 50) (xy 57.95 42.013579)))
+    (feature2 (pts (xy 96.1 50) (xy 96.1 42.013579)))
+    (crossbar (pts (xy 96.1 42.6) (xy 57.95 42.6)))
+    (arrow1a (pts (xy 57.95 42.6) (xy 59.076504 42.013579)))
+    (arrow1b (pts (xy 57.95 42.6) (xy 59.076504 43.186421)))
+    (arrow2a (pts (xy 96.1 42.6) (xy 94.973496 42.013579)))
+    (arrow2b (pts (xy 96.1 42.6) (xy 94.973496 43.186421)))
+  )
   (gr_text "Short here\nfor Lefthand" (at 96.15 65.8) (layer B.SilkS) (tstamp 5EFA829D)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
   )

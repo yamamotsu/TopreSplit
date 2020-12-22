@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:controller-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U3
+L controller-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U3
 U 1 1 5ECFFB58
 P 5825 4025
 F 0 "U3" V 5775 4025 50  0000 C CNN
@@ -643,7 +642,7 @@ Wire Wire Line
 	6450 1950 6450 2150
 Connection ~ 6450 2150
 $Comp
-L Connector:USB_B_Micro J2
+L controller-rescue:USB_B_Micro-Connector J2
 U 1 1 5EDE139B
 P 1925 4750
 F 0 "J2" H 1696 4741 50  0000 R CNN
